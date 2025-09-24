@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../assets/logo.png";
 
 const Footer = () => {
   return (
@@ -6,7 +7,10 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 py-10 px-6 text-sm text-gray-200">
         {/* Company Info */}
         <div>
-          <h3 className="font-semibold text-white mb-3">IssueFix</h3>
+          <a className="text-xl flex gap-x-2 my-3">
+            <img src={logo} alt="issueFix" className="h-7" />
+            <span className="font-semibold">IssueFix</span>
+          </a>
           <p>
             Simplifying issue tracking and employee management with an
             easy-to-use platform.

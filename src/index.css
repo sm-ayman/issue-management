@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.toggle-btns{
+    @apply bg-indigo-200 p-2 cursor-pointer
+}
