@@ -9,18 +9,26 @@ const Issues = ({ fetchPromise }) => {
   //   console.log(initialIssues);
 
   const [data, setData] = useState(initialIssues);
+  // Flatten all issues
+  const allIssues = data.flatMap((emp) => emp.issues);
+
+  // Filter issues based on toggleStatus
+  const filtereData =
+    toggleStatus === "All"
+      ? allIssues
+      : allIssues.filter((issue) => issue.status === toggleStatus);
 
   return (
     <div>
-      <Counter data={data} ></Counter>
+      <Counter data={data}></Counter>
       <ToggleBtns
         toggleStatus={toggleStatus}
         setToggleStatus={setToggleStatus}
       ></ToggleBtns>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10 md:px-15 px-2">
-        {initialIssues.map((employee) => {
-          const issue = employee.issues[0]; // take the first issue only
-          return <IssueCard issue={issue} employee={employee}></IssueCard>;
+        {filtereData.map((issue) => {
+          const employee = data.find((emp) => emp.issues.includes(issue));
+          return <IssueCard issue={issue} element={employee}></IssueCard>;
         })}
       </div>
     </div>
