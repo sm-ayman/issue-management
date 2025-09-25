@@ -24,15 +24,6 @@
         "category": "Software",
         "requestedBy": "Shahriar Nafi",
         "createdAt": "2025-09-19T15:10:00Z"
-      },
-      {
-        "ticketId": "TCK-3011",
-        "subject": "Reset password link expired too soon",
-        "status": "Reviewed",
-        "priority": "Low",
-        "category": "Authentication",
-        "requestedBy": "Tanzim Ahmed",
-        "createdAt": "2025-09-12T09:25:00Z"
       }
     ]
   },
@@ -61,15 +52,6 @@
         "category": "Email",
         "requestedBy": "Jannat Akhi",
         "createdAt": "2025-09-18T10:10:00Z"
-      },
-      {
-        "ticketId": "TCK-3012",
-        "subject": "Shared mailbox permissions not applying",
-        "status": "Submitted",
-        "priority": "High",
-        "category": "Email",
-        "requestedBy": "Alif Hasan",
-        "createdAt": "2025-09-11T08:00:00Z"
       }
     ]
   },
@@ -98,15 +80,6 @@
         "category": "Hardware",
         "requestedBy": "Sultan Md. Ayman",
         "createdAt": "2025-09-16T12:15:00Z"
-      },
-      {
-        "ticketId": "TCK-3013",
-        "subject": "Projector not displaying HDMI input",
-        "status": "Pending",
-        "priority": "Medium",
-        "category": "Hardware",
-        "requestedBy": "Faria Noor",
-        "createdAt": "2025-09-10T14:40:00Z"
       }
     ]
   },
@@ -135,15 +108,6 @@
         "category": "Network",
         "requestedBy": "Khadija Noor",
         "createdAt": "2025-09-15T09:50:00Z"
-      },
-      {
-        "ticketId": "TCK-3014",
-        "subject": "Firewall rules blocking internal API",
-        "status": "Submitted",
-        "priority": "Critical",
-        "category": "Network",
-        "requestedBy": "Imran Kabir",
-        "createdAt": "2025-09-09T16:10:00Z"
       }
     ]
   },
@@ -168,19 +132,10 @@
         "ticketId": "TCK-3010",
         "subject": "React build failing on production",
         "status": "Submitted",
-        "priority": "Critical",
+        "priority": "High",
         "category": "Deployment",
         "requestedBy": "Tanvir Hossain",
         "createdAt": "2025-09-13T11:40:00Z"
-      },
-      {
-        "ticketId": "TCK-3015",
-        "subject": "Navbar flickering after page reload",
-        "status": "Reviewed",
-        "priority": "Medium",
-        "category": "Frontend",
-        "requestedBy": "Rafiul Karim",
-        "createdAt": "2025-09-08T18:20:00Z"
       }
     ]
   }

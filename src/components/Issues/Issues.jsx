@@ -46,6 +46,7 @@ const Issues = ({ fetchPromise }) => {
                       Ticket: {issue.ticketId}
                     </p>
                     <div className="flex justify-between items-center mt-2">
+                      {/* Status Badge */}
                       <span
                         className={`badge text-md font-semibold ${
                           issue.status === "Pending"
@@ -57,15 +58,15 @@ const Issues = ({ fetchPromise }) => {
                       >
                         {issue.status}
                       </span>
+
+                      {/* Priority Badge */}
                       <span
-                        className={`badge  ${
-                          issue.priority === "Critical"
+                        className={`badge text-md font-semibold ${
+                          issue.priority === "High"
                             ? "badge-error"
-                            : issue.priority === "High"
-                            ? "badge-warning"
                             : issue.priority === "Medium"
-                            ? "badge-info"
-                            : "badge-neutral"
+                            ? "badge-warning"
+                            : "badge-info"
                         }`}
                       >
                         {issue.priority}
