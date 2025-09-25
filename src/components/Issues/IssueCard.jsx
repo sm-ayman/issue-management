@@ -3,9 +3,16 @@ import React from "react";
 const IssueCard = ({ issue, data, setData }) => {
   const handleClick = () => {
     console.log(issue.ticketId);
-    const expectedData = data.find((el) => el.ticketId === issue.ticketId);
-    console.log(expectedData);
-    
+    const currentData = data.find((el) => el.ticketId === issue.ticketId);
+    if (currentData.status == "Pending") {
+      currentData.status = "Submitted";
+    } else if (currentData.status == "Submitted") {
+      currentData.status = "Reviewed";
+    }
+    console.log(currentData);
+    const restData = data.filter((el) => el.ticketId !== issue.ticketId);
+    console.log({ restData });
+    setData([currentData, ...restData]);
   };
 
   return (
@@ -54,7 +61,7 @@ const IssueCard = ({ issue, data, setData }) => {
                   ? "badge-error"
                   : issue.priority === "Medium"
                   ? "badge-warning"
-                  : "badge-info"
+                  : "badge-neutral"
               }`}
             >
               {issue.priority}
