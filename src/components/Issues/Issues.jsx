@@ -6,10 +6,13 @@ import IssueCard from "./IssueCard";
 const Issues = ({ fetchPromise }) => {
   const [toggleStatus, setToggleStatus] = useState("All");
   const initialIssues = use(fetchPromise);
-//   console.log(initialIssues);
+  //   console.log(initialIssues);
+
+  const [data, setData] = useState(initialIssues);
+
   return (
     <div>
-      <Counter></Counter>
+      <Counter data={data} ></Counter>
       <ToggleBtns
         toggleStatus={toggleStatus}
         setToggleStatus={setToggleStatus}
