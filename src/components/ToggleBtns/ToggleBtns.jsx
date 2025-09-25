@@ -1,7 +1,7 @@
 import React from "react";
 
 const ToggleBtns = ({ toggleStatus, setToggleStatus }) => {
-  console.log(toggleStatus);
+  // console.log(toggleStatus);
   return (
     <div className="flex mt-10 items-center justify-center md:justify-end md:pe-15 font-semibold">
       <button
