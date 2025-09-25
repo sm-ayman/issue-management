@@ -3,7 +3,7 @@ import React from "react";
 const ToggleBtns = ({ toggleStatus, setToggleStatus }) => {
   console.log(toggleStatus);
   return (
-    <div className="flex  mt-10 items-center justify-center md:justify-end px-15 font-semibold">
+    <div className="flex mt-10 items-center justify-center md:justify-end md:pe-15 font-semibold">
       <button
         onClick={() => setToggleStatus("All")}
         className={`toggle-btns rounded-s-lg ${

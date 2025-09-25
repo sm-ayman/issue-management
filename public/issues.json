@@ -1,0 +1,187 @@
+[
+  {
+    "employeeId": "EMP-101",
+    "name": "Rafiq Hasan",
+    "email": "rafiq.hasan@issuefix.com",
+    "department": "Support",
+    "role": "Support Engineer",
+    "employeeImg": "https://randomuser.me/api/portraits/men/32.jpg",
+    "issues": [
+      {
+        "ticketId": "TCK-3001",
+        "subject": "Login button not responding",
+        "status": "Submitted",
+        "priority": "High",
+        "category": "Authentication",
+        "requestedBy": "Sultan Md. Ayman",
+        "createdAt": "2025-09-21T11:20:00Z"
+      },
+      {
+        "ticketId": "TCK-3005",
+        "subject": "File upload stuck at 99%",
+        "status": "Pending",
+        "priority": "Medium",
+        "category": "Software",
+        "requestedBy": "Shahriar Nafi",
+        "createdAt": "2025-09-19T15:10:00Z"
+      },
+      {
+        "ticketId": "TCK-3011",
+        "subject": "Reset password link expired too soon",
+        "status": "Reviewed",
+        "priority": "Low",
+        "category": "Authentication",
+        "requestedBy": "Tanzim Ahmed",
+        "createdAt": "2025-09-12T09:25:00Z"
+      }
+    ]
+  },
+  {
+    "employeeId": "EMP-102",
+    "name": "Farhana Akter",
+    "email": "farhana.akter@issuefix.com",
+    "department": "Email Services",
+    "role": "System Admin",
+    "employeeImg": "https://randomuser.me/api/portraits/women/44.jpg",
+    "issues": [
+      {
+        "ticketId": "TCK-3002",
+        "subject": "Unable to sync mailbox",
+        "status": "Reviewed",
+        "priority": "Medium",
+        "category": "Email",
+        "requestedBy": "Sakib Mahmud",
+        "createdAt": "2025-09-20T09:45:00Z"
+      },
+      {
+        "ticketId": "TCK-3006",
+        "subject": "Auto-forward not working",
+        "status": "Pending",
+        "priority": "Low",
+        "category": "Email",
+        "requestedBy": "Jannat Akhi",
+        "createdAt": "2025-09-18T10:10:00Z"
+      },
+      {
+        "ticketId": "TCK-3012",
+        "subject": "Shared mailbox permissions not applying",
+        "status": "Submitted",
+        "priority": "High",
+        "category": "Email",
+        "requestedBy": "Alif Hasan",
+        "createdAt": "2025-09-11T08:00:00Z"
+      }
+    ]
+  },
+  {
+    "employeeId": "EMP-103",
+    "name": "Arif Chowdhury",
+    "email": "arif.chowdhury@issuefix.com",
+    "department": "Hardware",
+    "role": "IT Specialist",
+    "employeeImg": "https://randomuser.me/api/portraits/men/12.jpg",
+    "issues": [
+      {
+        "ticketId": "TCK-3003",
+        "subject": "Printer not connecting via Wi-Fi",
+        "status": "Pending",
+        "priority": "Low",
+        "category": "Hardware",
+        "requestedBy": "Mithila Rahman",
+        "createdAt": "2025-09-18T07:30:00Z"
+      },
+      {
+        "ticketId": "TCK-3007",
+        "subject": "Laptop overheating frequently",
+        "status": "Submitted",
+        "priority": "High",
+        "category": "Hardware",
+        "requestedBy": "Sultan Md. Ayman",
+        "createdAt": "2025-09-16T12:15:00Z"
+      },
+      {
+        "ticketId": "TCK-3013",
+        "subject": "Projector not displaying HDMI input",
+        "status": "Pending",
+        "priority": "Medium",
+        "category": "Hardware",
+        "requestedBy": "Faria Noor",
+        "createdAt": "2025-09-10T14:40:00Z"
+      }
+    ]
+  },
+  {
+    "employeeId": "EMP-104",
+    "name": "Nusrat Jahan",
+    "email": "nusrat.jahan@issuefix.com",
+    "department": "Networking",
+    "role": "Network Engineer",
+    "employeeImg": "https://randomuser.me/api/portraits/women/69.jpg",
+    "issues": [
+      {
+        "ticketId": "TCK-3004",
+        "subject": "Frequent VPN disconnections",
+        "status": "Pending",
+        "priority": "High",
+        "category": "Network",
+        "requestedBy": "Rakibul Islam",
+        "createdAt": "2025-09-17T13:25:00Z"
+      },
+      {
+        "ticketId": "TCK-3008",
+        "subject": "Slow Wi-Fi speed in 3rd floor",
+        "status": "Reviewed",
+        "priority": "Medium",
+        "category": "Network",
+        "requestedBy": "Khadija Noor",
+        "createdAt": "2025-09-15T09:50:00Z"
+      },
+      {
+        "ticketId": "TCK-3014",
+        "subject": "Firewall rules blocking internal API",
+        "status": "Submitted",
+        "priority": "Critical",
+        "category": "Network",
+        "requestedBy": "Imran Kabir",
+        "createdAt": "2025-09-09T16:10:00Z"
+      }
+    ]
+  },
+  {
+    "employeeId": "EMP-105",
+    "name": "Md. Moshiur",
+    "email": "sultan.ayman@issuefix.com",
+    "department": "Development",
+    "role": "Frontend Developer",
+    "employeeImg": "https://randomuser.me/api/portraits/men/65.jpg",
+    "issues": [
+      {
+        "ticketId": "TCK-3009",
+        "subject": "UI not rendering properly in dark mode",
+        "status": "Pending",
+        "priority": "High",
+        "category": "Frontend",
+        "requestedBy": "Anika Sultana",
+        "createdAt": "2025-09-14T17:00:00Z"
+      },
+      {
+        "ticketId": "TCK-3010",
+        "subject": "React build failing on production",
+        "status": "Submitted",
+        "priority": "Critical",
+        "category": "Deployment",
+        "requestedBy": "Tanvir Hossain",
+        "createdAt": "2025-09-13T11:40:00Z"
+      },
+      {
+        "ticketId": "TCK-3015",
+        "subject": "Navbar flickering after page reload",
+        "status": "Reviewed",
+        "priority": "Medium",
+        "category": "Frontend",
+        "requestedBy": "Rafiul Karim",
+        "createdAt": "2025-09-08T18:20:00Z"
+      }
+    ]
+  }
+]

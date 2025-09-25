@@ -3,7 +3,7 @@ import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-indigo-100 shadow-sm py-0 px-15">
+    <div className="navbar bg-indigo-100 shadow-sm py-0 md:px-15">
       <div className="flex-1">
         <a className="text-xl flex gap-x-2">
           <img src={logo} alt="issueFix" className="h-7" />

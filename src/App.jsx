@@ -1,21 +1,23 @@
-import { useState } from "react";
+import { Suspense } from "react";
 import "./App.css";
-import Counter from "./components/Counter/Counter";
 import Footer from "./components/Footer/Footer";
+import Issues from "./components/Issues/Issues";
 import Navbar from "./components/Navbar/Navbar";
-import ToggleBtns from "./components/ToggleBtns/ToggleBtns";
+import Spinner from "./components/Spinner/Spinner";
+
+const fetchIssues = async () => {
+  const result = await fetch("/issues.json");
+  return result.json();
+};
 
 function App() {
-  const [toggleStatus, setToggleStatus] = useState("All");
-
+  const fetchPromise = fetchIssues();
   return (
     <>
       <Navbar></Navbar>
-      <Counter></Counter>
-      <ToggleBtns
-        toggleStatus={toggleStatus}
-        setToggleStatus={setToggleStatus}
-      ></ToggleBtns>
+      <Suspense fallback={<Spinner></Spinner>}>
+        <Issues fetchPromise={fetchPromise}></Issues>
+      </Suspense>
       <Footer></Footer>
     </>
   );
