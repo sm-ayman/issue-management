@@ -93,5 +93,62 @@
         "createdAt": "2025-09-14T17:00:00Z"
       }
     ]
+  },
+  {
+    "employeeId": "EMP-106",
+    "name": "Sakib Mahmud",
+    "email": "sakib.mahmud@issuefix.com",
+    "department": "Support",
+    "role": "Support Engineer",
+    "employeeImg": "https://randomuser.me/api/portraits/men/75.jpg",
+    "issues": [
+      {
+        "ticketId": "TCK-3011",
+        "subject": "Cannot reset password",
+        "status": "Submitted",
+        "priority": "High",
+        "category": "Authentication",
+        "requestedBy": "Farhana Akter",
+        "createdAt": "2025-09-22T10:15:00Z"
+      }
+    ]
+  },
+  {
+    "employeeId": "EMP-107",
+    "name": "Jannat Akhi",
+    "email": "jannat.akhi@issuefix.com",
+    "department": "Email Services",
+    "role": "System Admin",
+    "employeeImg": "https://randomuser.me/api/portraits/women/55.jpg",
+    "issues": [
+      {
+        "ticketId": "TCK-3013",
+        "subject": "Mailbox not syncing on mobile",
+        "status": "Reviewed",
+        "priority": "Medium",
+        "category": "Email",
+        "requestedBy": "Farhana Akter",
+        "createdAt": "2025-09-19T09:00:00Z"
+      }
+    ]
+  },
+  {
+    "employeeId": "EMP-108",
+    "name": "Tanvir Hossain",
+    "email": "tanvir.hossain@issuefix.com",
+    "department": "Development",
+    "role": "Backend Developer",
+    "employeeImg": "https://randomuser.me/api/portraits/men/88.jpg",
+    "issues": [
+      {
+        "ticketId": "TCK-3014",
+        "subject": "API response slow",
+        "status": "Pending",
+        "priority": "High",
+        "category": "Backend",
+        "requestedBy": "Md. Moshiur",
+        "createdAt": "2025-09-18T16:45:00Z"
+      }
+    ]
   }
 ]

@@ -10,7 +10,7 @@ const Counter = ({ data }) => {
   );
   const reviewedData = allIssues.filter((issue) => issue.status === "Reviewed");
 
-  console.log(pendingData, submittedData, reviewedData);
+  console.log({ pendingData, submittedData, reviewedData });
 
   return (
     <div className="mt-10 flex flex-col md:flex-row gap-5 px-4 md:px-10">
