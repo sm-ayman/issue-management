@@ -1,154 +1,130 @@
 [
   {
+    "ticketId": "TCK-3001",
+    "subject": "Login button not responding",
+    "status": "Submitted",
+    "priority": "High",
+    "category": "Authentication",
+    "requestedBy": "Sultan Md. Ayman",
+    "assignedTo": "Rafiq Hasan",
+    "createdAt": "2025-09-21T11:20:00Z",
     "employeeId": "EMP-101",
     "name": "Rafiq Hasan",
     "email": "rafiq.hasan@issuefix.com",
     "department": "Support",
     "role": "Support Engineer",
-    "employeeImg": "https://randomuser.me/api/portraits/men/32.jpg",
-    "issues": [
-      {
-        "ticketId": "TCK-3001",
-        "subject": "Login button not responding",
-        "status": "Submitted",
-        "priority": "High",
-        "category": "Authentication",
-        "requestedBy": "Sultan Md. Ayman",
-        "createdAt": "2025-09-21T11:20:00Z"
-      }
-    ]
+    "employeeImg": "https://randomuser.me/api/portraits/men/32.jpg"
   },
   {
+    "ticketId": "TCK-3002",
+    "subject": "Unable to sync mailbox",
+    "status": "Reviewed",
+    "priority": "Medium",
+    "category": "Email",
+    "requestedBy": "Sakib Mahmud",
+    "assignedTo": "Farhana Akter",
+    "createdAt": "2025-09-20T09:45:00Z",
     "employeeId": "EMP-102",
     "name": "Farhana Akter",
     "email": "farhana.akter@issuefix.com",
     "department": "Email Services",
     "role": "System Admin",
-    "employeeImg": "https://randomuser.me/api/portraits/women/44.jpg",
-    "issues": [
-      {
-        "ticketId": "TCK-3002",
-        "subject": "Unable to sync mailbox",
-        "status": "Reviewed",
-        "priority": "Medium",
-        "category": "Email",
-        "requestedBy": "Sakib Mahmud",
-        "createdAt": "2025-09-20T09:45:00Z"
-      }
-    ]
+    "employeeImg": "https://randomuser.me/api/portraits/women/44.jpg"
   },
   {
+    "ticketId": "TCK-3003",
+    "subject": "Printer not connecting via Wi-Fi",
+    "status": "Pending",
+    "priority": "Low",
+    "category": "Hardware",
+    "requestedBy": "Mithila Rahman",
+    "assignedTo": "Arif Chowdhury",
+    "createdAt": "2025-09-18T07:30:00Z",
     "employeeId": "EMP-103",
     "name": "Arif Chowdhury",
     "email": "arif.chowdhury@issuefix.com",
     "department": "Hardware",
     "role": "IT Specialist",
-    "employeeImg": "https://randomuser.me/api/portraits/men/12.jpg",
-    "issues": [
-      {
-        "ticketId": "TCK-3003",
-        "subject": "Printer not connecting via Wi-Fi",
-        "status": "Pending",
-        "priority": "Low",
-        "category": "Hardware",
-        "requestedBy": "Mithila Rahman",
-        "createdAt": "2025-09-18T07:30:00Z"
-      }
-    ]
+    "employeeImg": "https://randomuser.me/api/portraits/men/12.jpg"
   },
   {
+    "ticketId": "TCK-3004",
+    "subject": "Frequent VPN disconnections",
+    "status": "Pending",
+    "priority": "High",
+    "category": "Network",
+    "requestedBy": "Rakibul Islam",
+    "assignedTo": "Nusrat Jahan",
+    "createdAt": "2025-09-17T13:25:00Z",
     "employeeId": "EMP-104",
     "name": "Nusrat Jahan",
     "email": "nusrat.jahan@issuefix.com",
     "department": "Networking",
     "role": "Network Engineer",
-    "employeeImg": "https://randomuser.me/api/portraits/women/69.jpg",
-    "issues": [
-      {
-        "ticketId": "TCK-3004",
-        "subject": "Frequent VPN disconnections",
-        "status": "Pending",
-        "priority": "High",
-        "category": "Network",
-        "requestedBy": "Rakibul Islam",
-        "createdAt": "2025-09-17T13:25:00Z"
-      }
-    ]
+    "employeeImg": "https://randomuser.me/api/portraits/women/69.jpg"
   },
   {
+    "ticketId": "TCK-3009",
+    "subject": "UI not rendering properly in dark mode",
+    "status": "Pending",
+    "priority": "High",
+    "category": "Frontend",
+    "requestedBy": "Anika Sultana",
+    "assignedTo": "Md. Moshiur",
+    "createdAt": "2025-09-14T17:00:00Z",
     "employeeId": "EMP-105",
     "name": "Md. Moshiur",
     "email": "sultan.ayman@issuefix.com",
     "department": "Development",
     "role": "Frontend Developer",
-    "employeeImg": "https://randomuser.me/api/portraits/men/65.jpg",
-    "issues": [
-      {
-        "ticketId": "TCK-3009",
-        "subject": "UI not rendering properly in dark mode",
-        "status": "Pending",
-        "priority": "High",
-        "category": "Frontend",
-        "requestedBy": "Anika Sultana",
-        "createdAt": "2025-09-14T17:00:00Z"
-      }
-    ]
+    "employeeImg": "https://randomuser.me/api/portraits/men/65.jpg"
   },
   {
+    "ticketId": "TCK-3011",
+    "subject": "Cannot reset password",
+    "status": "Submitted",
+    "priority": "High",
+    "category": "Authentication",
+    "requestedBy": "Farhana Akter",
+    "assignedTo": "Sakib Mahmud",
+    "createdAt": "2025-09-22T10:15:00Z",
     "employeeId": "EMP-106",
     "name": "Sakib Mahmud",
     "email": "sakib.mahmud@issuefix.com",
     "department": "Support",
     "role": "Support Engineer",
-    "employeeImg": "https://randomuser.me/api/portraits/men/75.jpg",
-    "issues": [
-      {
-        "ticketId": "TCK-3011",
-        "subject": "Cannot reset password",
-        "status": "Submitted",
-        "priority": "High",
-        "category": "Authentication",
-        "requestedBy": "Farhana Akter",
-        "createdAt": "2025-09-22T10:15:00Z"
-      }
-    ]
+    "employeeImg": "https://randomuser.me/api/portraits/men/75.jpg"
   },
   {
+    "ticketId": "TCK-3013",
+    "subject": "Mailbox not syncing on mobile",
+    "status": "Reviewed",
+    "priority": "Medium",
+    "category": "Email",
+    "requestedBy": "Farhana Akter",
+    "assignedTo": "Jannat Akhi",
+    "createdAt": "2025-09-19T09:00:00Z",
     "employeeId": "EMP-107",
     "name": "Jannat Akhi",
     "email": "jannat.akhi@issuefix.com",
     "department": "Email Services",
     "role": "System Admin",
-    "employeeImg": "https://randomuser.me/api/portraits/women/55.jpg",
-    "issues": [
-      {
-        "ticketId": "TCK-3013",
-        "subject": "Mailbox not syncing on mobile",
-        "status": "Reviewed",
-        "priority": "Medium",
-        "category": "Email",
-        "requestedBy": "Farhana Akter",
-        "createdAt": "2025-09-19T09:00:00Z"
-      }
-    ]
+    "employeeImg": "https://randomuser.me/api/portraits/women/55.jpg"
   },
   {
+    "ticketId": "TCK-3014",
+    "subject": "API response slow",
+    "status": "Pending",
+    "priority": "High",
+    "category": "Backend",
+    "requestedBy": "Md. Moshiur",
+    "assignedTo": "Tanvir Hossain",
+    "createdAt": "2025-09-18T16:45:00Z",
     "employeeId": "EMP-108",
     "name": "Tanvir Hossain",
     "email": "tanvir.hossain@issuefix.com",
     "department": "Development",
     "role": "Backend Developer",
-    "employeeImg": "https://randomuser.me/api/portraits/men/88.jpg",
-    "issues": [
-      {
-        "ticketId": "TCK-3014",
-        "subject": "API response slow",
-        "status": "Pending",
-        "priority": "High",
-        "category": "Backend",
-        "requestedBy": "Md. Moshiur",
-        "createdAt": "2025-09-18T16:45:00Z"
-      }
-    ]
+    "employeeImg": "https://randomuser.me/api/portraits/men/88.jpg"
   }
 ]

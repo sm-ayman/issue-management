@@ -4,19 +4,15 @@ import Counter from "../Counter/Counter";
 import IssueCard from "./IssueCard";
 
 const Issues = ({ fetchPromise }) => {
-  const [toggleStatus, setToggleStatus] = useState("All");
   const initialIssues = use(fetchPromise);
-  //   console.log(initialIssues);
-
   const [data, setData] = useState(initialIssues);
-  // Flatten all issues
-  const allIssues = data.flatMap((emp) => emp.issues);
+  const [toggleStatus, setToggleStatus] = useState("All");
 
   // Filter issues based on toggleStatus
-  const filtereData =
+  const filteredData =
     toggleStatus === "All"
-      ? allIssues
-      : allIssues.filter((issue) => issue.status === toggleStatus);
+      ? data
+      : data.filter((issue) => issue.status === toggleStatus);
 
   return (
     <div>
@@ -26,10 +22,14 @@ const Issues = ({ fetchPromise }) => {
         setToggleStatus={setToggleStatus}
       ></ToggleBtns>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10 md:px-15 px-2">
-        {filtereData.map((issue) => {
-          const employee = data.find((emp) => emp.issues.includes(issue));
-          return <IssueCard issue={issue} element={employee}></IssueCard>;
-        })}
+        {filteredData.map((issue) => (
+          <IssueCard
+            key={issue.ticketId}
+            issue={issue}
+            data={data}
+            setData={setData}
+          />
+        ))}
       </div>
     </div>
   );

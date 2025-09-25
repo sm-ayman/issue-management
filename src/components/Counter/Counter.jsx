@@ -1,16 +1,10 @@
 import React from "react";
 
 const Counter = ({ data }) => {
-  // flat map converts all the nested array into one level array
-  const allIssues = data.flatMap((emp) => emp.issues);
-
-  const pendingData = allIssues.filter((issue) => issue.status === "Pending");
-  const submittedData = allIssues.filter(
-    (issue) => issue.status === "Submitted"
-  );
-  const reviewedData = allIssues.filter((issue) => issue.status === "Reviewed");
-
-  console.log({ pendingData, submittedData, reviewedData });
+  // Filter issues based on status
+  const pendingData = data.filter((issue) => issue.status === "Pending");
+  const submittedData = data.filter((issue) => issue.status === "Submitted");
+  const reviewedData = data.filter((issue) => issue.status === "Reviewed");
 
   return (
     <div className="mt-10 flex flex-col md:flex-row gap-5 px-4 md:px-10">
